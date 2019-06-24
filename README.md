@@ -7,7 +7,7 @@ It is provided as-is with no warranty.
 
 ## Requirements:
 * `libusb-1.0`
-  * To get libusb-1.0: <> (Written by EmergenTek)
+  * To get libusb-1.0: [ ](# "Written by EmergenTek")
     * Type command `sudo apt edit-sources`
     * then choose `2` to open the nano text editor. 
     * Add a line `deb http://ftp.us.debian.org/debian stretch main`
@@ -26,7 +26,7 @@ make
 
 * copy the appropriate .rules file into `/etc/udev/rules` and follow instructions within the file.
 * It has been tested under Ubuntu 12:04 and SUSE 12.1
-* Make sure lac and setall programs are in /bin/ <> (Line written by EmergenTek)
+* Make sure lac and setall programs are in /bin/ [ ](# "Line written by EmergenTek")
 
 ## Program usage:
 ```
@@ -39,7 +39,7 @@ lac [debug] [rank=1] [write=location,value]
   * locations should be prefaced by 0x if in hexadecimal.	
 * setall - a script to set sample values
 
-## Troubleshooting and Remarks: <> (Written by EmergenTek)
+## Troubleshooting and Remarks: [ ](# "Written by EmergenTek")
 * If after you write an lac command, it echoes:
 ```
 lac: firgelli.C:82: void Firgelli::Open(int): Assertion `rval==0' failed.
