@@ -1,0 +1,17 @@
+#!/bin/csh
+./lac write=0x01,10		#accuracy
+./lac write=0x02,20		#retract limit
+./lac write=0x03,1000	#extend limit
+./lac write=0x04,3		#movement threshold
+./lac write=0x05,10000	#stall time
+./lac write=0x06,80		#PWM threshold
+./lac write=0x07,3		#Derivative Threshold
+./lac write=0x08,1023	#max derivative
+./lac write=0x09,0		#min derivative
+./lac write=0x0a,1023	#max pwm
+./lac write=0x0b,0		#min pwm
+./lac write=0x0c,1		#Kp
+./lac write=0x0d,10		#Kd
+./lac write=0x0e,4		#average RC
+./lac write=0x0f,8		#average ADC 
+./lac write=0x21,1023	#speed

@@ -1,0 +1,1 @@
+ATTRS{idVendor}=="04d8", ATTRS{idProduct}=="fc5f", GROUP="dialout"

@@ -1,0 +1,12 @@
+# Name: 50-firgelli.rules
+# Version: 1.0
+# Author: R. Treffers
+#
+#Try running this where the correct path is put in
+#udevadm info --attribute-walk --name=/dev/bus/usb/002/003
+#copy this into /etc/udev/rules.d
+#then execute:  /sbin/udevadm control --reload-rules
+
+# description to allow others to r/w the Firgelli device
+#The chmod should work, but id doesn't so I changed the group 
+ATTR{idVendor}=="04d8", ATTR{idProduct}=="fc5f", GROUP="video"
